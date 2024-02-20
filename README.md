@@ -30,6 +30,7 @@ The data consists of the following fields, in `.csv` format:
 - `sentiment_wrt_mods`: the sentiment predicted our by our model: positive, neutral, or negative
 
 ## Data Files
+
 | Filename      | Number of Posts | Number of Comments | Total Records |
 |---------------|-----------------|--------------------|---------------|
 | 2020-01.jsonl | 11,175 posts    | 106,488 comments   | 117,663 total |
