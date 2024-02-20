@@ -4,6 +4,18 @@ This website is a companion site for our paper titled Perceptions of Moderators 
 
 A summary of our results and some additional discussion is available over at [/r/TheoryOfReddit](https://www.reddit.com/r/TheoryOfReddit/comments/1ary8x8/identifying_promising_moderation_strategies/).
 
+If you make use of our data, please cite our paper:
+```
+@misc{weld2024perceptions,
+      title={Perceptions of Moderators as a Large-Scale Measure of Online Community Governance}, 
+      author={Galen Weld and Leon Leibmann and Amy X. Zhang and Tim Althoff},
+      year={2024},
+      eprint={2401.16610},
+      archivePrefix={arXiv},
+      primaryClass={cs.SI}
+}
+```
+
 # Moderator Discourse Data
 
 We are in the process of computing moderator discourse data for a larger time period. For now, data is available for all subreddits from January 2020-June 2021, the same time period covered in our paper. Due to reddit licensing issues, we only make 'dehydrated' data available here, which is to say we do not include the content of the posts and comments, only their sentiment with regards to moderators, along with some metadata for convenience. If you have any questions, please contact Galen Weld, the corresponding author for this work.
