@@ -1,6 +1,6 @@
 # Perceptions of Moderators as a Large-Scale Measure of Online Community Governance
 
-This website is a companion site for our paper titled Perceptions of Moderators as a Large-Scale Measure of Online Community Governance. A preprint of this paper is available on [arXiv](https://arxiv.org/abs/2401.16610), please read it for more details on our methods and results.
+This website is a companion site for our paper titled Perceptions of Moderators as a Large-Scale Measure of Online Community Governance, which will appear at CSCW 2025. A preprint of this paper is available on [arXiv](https://arxiv.org/abs/2401.16610), please read it for more details on our methods and results.
 
 A summary of our results and some additional discussion is available over at [/r/TheoryOfReddit](https://www.reddit.com/r/TheoryOfReddit/comments/1ary8x8/identifying_promising_moderation_strategies/).
 
@@ -9,10 +9,8 @@ If you make use of our data, please cite our paper:
 @misc{weld2024perceptions,
       title={Perceptions of Moderators as a Large-Scale Measure of Online Community Governance}, 
       author={Galen Weld and Leon Leibmann and Amy X. Zhang and Tim Althoff},
-      year={2024},
-      eprint={2401.16610},
-      archivePrefix={arXiv},
-      primaryClass={cs.SI}
+      year={2025},
+      journal={CSCW},
 }
 ```
 
