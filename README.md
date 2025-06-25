@@ -54,3 +54,19 @@ The data consists of the following fields, in `.csv` format:
 
 ## Data Download
 You may download all the above files, or individual files, from our [github repo](https://github.com/behavioral-data/moderator_discourse_public).
+
+
+## Daily Counts Data
+If you prefer, we also provide a single large `.csv` containing daily counts, for each subreddit, of the number of posts and comments with positive, neutral, and negative sentiment with regards to the moderators. Importantly, these data also include counts of total posts and comments (of any type, not just those addressing moderators), as well as the number of removed and deleted comments (detected using [removed] tags). You may download this file [here](https://drive.google.com/file/d/14J-jmKaq3HSn7gkL6duhYUWMu8QOOT-0/view?usp=sharing). It spans from July 2018 to June 2021.
+
+The data consists of the following columns:
+- `subreddit`: the name of the subreddit
+- `date`: the date of the count (UTC time delineated)
+- `total_posts`: total number of posts, of any type
+- `total_comments`: total number of comments, of any type
+- `removed_comments`: total number of posts that were removed by moderators
+- `removed_posts`: total number of comments that were removed by moderators
+- `mod_items_positive`: total number of posts and comments discussing moderators, and expressing positive sentiment towards those moderators
+- `mod_items_negative`: total number of posts and comments discussing moderators, and expressing negative sentiment towards those moderators
+- `mod_items_neutral`: total number of posts and comments discussing moderators, and expressing neutral sentiment towards those moderators
+
